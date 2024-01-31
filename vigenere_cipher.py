@@ -90,3 +90,22 @@ a.encryption()
 print(f"Cipher Text: {a.cipher_text}")
 a.decrypt()
 print(f"Decryption Text: {a.decrypt_text}")
+
+
+"""
+if len(text)!=len(key):
+    li_test = list(key)
+    index = 0
+    for i in range(len(text)):
+        if i < len(key):
+            pass
+        else:
+            if index <= len(li_test) -1:
+                key+=li_test[index]
+                index+=1
+            
+            else:
+                index = 0
+                key+=li_test[index]
+                index+=1
+"""
